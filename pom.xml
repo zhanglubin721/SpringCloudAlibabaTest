@@ -45,6 +45,7 @@
 
     <modules>
         <module>provider</module>
+        <module>gateway</module>
     </modules>
 
 </project>
