@@ -16,11 +16,12 @@ public class TestController {
 
     @GetMapping("test1")
     public void test1() {
-        System.out.println("11111-----------------------------1111------------------------------1111");
+        System.out.println("1111-----------------------------1111------------------------------1111");
     }
 
     @GetMapping("test2")
     public void test2() {
+        System.out.println("2222-----------------------------2222------------------------------2222");
         restTemplate.getForObject("http://nocos-provider/testprovider/test1",String.class);
     }
 
