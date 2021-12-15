@@ -1,3 +1,6 @@
+#---------------SpringCloud Alibaba下的nacos要求基础配置文件名称bootstrap.properties，所以该文本暂时没用--------------
+
+
 #server:
 #  port: 9102
 #spring:
